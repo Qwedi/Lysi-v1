@@ -21,7 +21,7 @@ fs.readdir('./cmds/',(err,files)=>{
 
 
 bot.on('ready', () => {
-bot.user.setActivity(`*help | Квэди#3137`, { type: "LISTENING"});   
+bot.user.setActivity(`(^w^)`, { type: "LISTENING"});   
     console.log(`Запустился бот ${bot.user.username}`);
     bot.generateInvite(["ADMINISTRATOR"]).then(link =>{
         console.log(link);
